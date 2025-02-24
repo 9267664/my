@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+#demo{
+	width: 200px;
+	height: 350px;
+	margin: 20px auto;
+	font-size: 20px;
+	color: #C17576;
+	line-height: 30px;
+	overflow: hidden;
+	cursor: default;
+}
+#ctrl{
+	background: #EEF56F;
+	font-size: 20px;
+	color: #C17576;
+	text-align: center;
+	cursor: pointer;
+}
+#ctrl span{
+	display: inline-block;
+	margin: 50px;
+}
+#ctrl txt{
+	border-bottom: 1px solid #063;
+	bottom: 5px;
+}
+#ctrl tp{
+	border-top: 1px solid #063;
+}
+
+#pic{
+	z-index: 10;
+	width: 1600px;
+	height: 300px;
+	overflow: hidden;
+	margin: 50px auto;
+	border: 1px dashed #f00;
+}
+#indemo{
+	float: left;
+	width: 2450%;
+	font-size: 0;
+}
+#pic1{
+	margin-top: 25px;
+	float: left;
+}
+#pic2{
+	margin-top: 25px;
+	float: left;
+}
+

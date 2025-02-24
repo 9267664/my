@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+       
+        <h1 class="title">红色记忆</h1>
+        <div id="box">
+           
+            <script>
+                var box=document.getElementById("box");
+                var pics="";
+                for(var i=1;i<=12;i+=1){
+                    var random_width=170+106*Math.random();
+                    pics+='<a href="#" class="pic pic'+i+'"><img style="min-height:130px;" width="'+random_width+'" src="pic'+i+'.jpg"/>美景'+i+'</a>';
+                }
+                box.innerHTML=pics;
+            </script>
+        </div>
+    </div>
+</body>
+</html>
